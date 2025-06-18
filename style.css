@@ -1,0 +1,75 @@
+body {
+    background-color: #434343;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+h2 {
+    text-align: center;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+#yeahLogo{
+    display: block;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+#bolso img{
+    margin-top: 50px;
+    width: 20vw;
+    box-shadow: 2px 2px 2px #000000;
+    transition: 1s;
+}
+
+#lula img{
+    margin-top: 50px;
+    width: 17.8vw;
+    box-shadow: 2px 2px 2px #000000;
+    transition: 1s;
+}
+
+#bolso img:hover {
+    transition: 1s;
+    scale: 1.05;
+}
+
+#lula img:hover {
+    transition: 1s;
+    scale: 1.05;
+}
+
+.yeyNamed {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#vote {
+    font-size: 40px;
+    color: #000000;
+    display: block;
+    padding: 5px;
+    background-color: #ffffff;
+    border: solid 3px #b1b1b1;
+    border-radius: 5px;
+    width: 250px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px auto;
+    padding: 10px;
+    transition: 0.8s;
+}
+
+#vote:hover {
+    transition: 0.8s;
+    scale: 1.1;
+}
